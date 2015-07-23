@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Simple chat</title>
+		<link rel="stylesheet" href="css/index.css">
+	</head>
+	<body>
+		<section class="name">
+			<label for="tLog">Entrer votre pseudo</label>
+			<input type="text" id="tLog" size="10" maxlength="10" disabled/>
+			<input type="button" id="bLog" value="S'identifier" disabled/>
+		</section>
+		<section class="users_messages">
+			<section class="messages"></section>
+			<section class="users"></section>
+		</section>
+		<section class="commandes">
+			<label for="tMsg">Message</label>
+			<input type="text" size="50" maxlength="50" id="tMsg" disabled/>
+			<input type="button" value="Envoyer" id="bMsg" disabled/>
+		</section>
+		<script type="application/javascript" src="socket.io/socket.io.js"></script>
+		<script type="application/javascript" src="js/index.js"></script>
+	</body>
+</html>
