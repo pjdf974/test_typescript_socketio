@@ -1,0 +1,22 @@
+{
+	"name":"test_socketio_typescript",
+	"version": "0.0.1",
+	"description": "Test typescript with socket.io",
+	"dependencies": {
+		"mime":"latest",
+		"socket.io":"latest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pjdf974/testtypescript_socketio.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pjdf974/testtypescript_socketio/issues"
+	},
+	"maintainers": [
+		{
+			"name": "pjdf974",
+			"email": "p0k3pypr0g@gmail.com"
+		}
+	]
+}
