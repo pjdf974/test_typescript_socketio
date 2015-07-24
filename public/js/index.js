@@ -23,12 +23,10 @@ onload = function () {
         }
         ;
         if (data.users) {
-            // vider la div users
             while (usrs.firstChild) {
                 usrs.removeChild(usrs.firstChild);
             }
             ;
-            // la remplir
             for (var user in data.users) {
                 ajouter(user, "user", usrs);
             }

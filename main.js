@@ -24,12 +24,10 @@ var io = sktio(http.createServer(function (request, response) {
         parsed.pathname = config.index;
     }
     ;
-    fs.createReadStream(path.join(process.cwd(), config.static, parsed.pathname))
-        .on("open", function () {
+    fs.createReadStream(path.join(process.cwd(), config.static, parsed.pathname)).on("open", function () {
         response.writeHead(200, mime.lookup(parsed.pathname));
         this.pipe(response);
-    })
-        .on("error", function (error) {
+    }).on("error", function (error) {
         response.writeHead(404, mime.lookup[".txt"]);
         response.end("\n\n\n\nERREUR =\n" + error);
     });

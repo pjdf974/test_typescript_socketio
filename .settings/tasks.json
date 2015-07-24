@@ -12,7 +12,7 @@
 	"version": "0.1.0",
 	
 	// The command is tsc. Assumes that tsc has been installed using npm install -g typescript
-	"command": "c:/users/p.fontaine/desktop/typescript/node_modules/.bin/tsc",
+	"command": "c:/users/pjdf974/typescript/.bin/tsc",
 	///C:\Users\p.fontaine\Desktop\typescript\node_modules
 	
 	// The command is a shell script

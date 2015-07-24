@@ -1,5 +1,5 @@
 interface Config{
-	port:number,
+	port:number;
 	hostname:string;
 	index:string;
 	static:string;
@@ -14,7 +14,7 @@ declare var process:{
 }
 
 interface Message{
-	msg?:string,
-	cod?:string,
+	msg?:string;
+	cod?:string;
 	users?:Object;
 }
