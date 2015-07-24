@@ -8,10 +8,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pjdf974/testtypescript_socketio.git"
+		"url": "https://github.com/pjdf974/test_typescript_socketio.git"
 	},
 	"bugs": {
-		"url": "https://github.com/pjdf974/testtypescript_socketio/issues"
+		"url": "https://github.com/pjdf974/test_typescript_socketio/issues"
 	},
 	"maintainers": [
 		{
